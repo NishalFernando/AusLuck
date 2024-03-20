@@ -111,6 +111,15 @@
       border: 2px solid red;
       height: auto;
     }
+    .header{
+      padding-top: 150px;
+    }
+    .header .text-section h1{
+      font-size: 30px;
+    }
+    .header .text-section h3{
+      font-size: 28px;
+    }
 }
 @media (max-width:450px){
     .header{
