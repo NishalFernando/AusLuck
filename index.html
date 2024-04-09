@@ -76,7 +76,8 @@
 <!-- Header ends -->
 
 <!-- Service section starts-->
-<div class="service" id="service-section">
+<!-- <div class="service" id="service-section">
+
   <div class="container">
     <div class="service-section">
         <h1>Our Services</h1>
@@ -144,7 +145,59 @@
         
     </div>
 </div>
+</div> -->
+<div class="service-section">
+  <div class="container">
+      <h1 class="topic"> Our Services</h1>
+      <h3 class="sub-topic"> We Provide Best Cleaning Services For You ! </h3>
+      <div class="wrapper">
+          <div class="box">
+              <div class="front-face">
+                  <img src="images/commercial-img-02.jpg">
+                  <h1>Commercial Cleaning</h1>
+              </div>
+              <div class="back-face">
+                  <h1>Commercial Cleaning</h1>
+                  <li>Car Park Cleaning</li>
+                  <li>Carpet Cleaning</li>
+                  <li>Window Cleaning</li>
+                  <li>Building Washing</li>
+                  <a href="services.html">View More</a>
+              </div>
+          </div>
+          <div class="box">
+              <div class="front-face">
+                  <img src="images/virus-img.png">
+                  <h1>Fogging & Sanitisation</h1>
+              </div>
+              <div class="back-face">
+                  <h1>Fogging & Sanitisation</h1>
+                  <li>Post virus infection control</li>
+                  <li>Sanitisation</li>
+                  <li>Disinfecton</li>
+                  <li>Virus prevention</li>
+                  <a href="services.html">View More</a>
+              </div>
+
+          </div>
+          <div class="box">
+              <div class="front-face">
+                  <img src="images/industry-img.jpeg">
+                  <h1>Industrial Cleaning</h1>
+              </div>
+              <div class="back-face">
+                  <h1>Industrial Cleaning</h1>
+                  <li>Retail</li>
+                  <li>Hospitality</li>
+                  <li>Medical</li>
+                  <li>Educational</li>
+                  <a href="services.html">View More</a>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
+
 <!-- Service section ends-->
 <script>
  window.addEventListener('scroll', function() {
@@ -160,17 +213,17 @@
 
   // If the top of the cards section is within the viewport plus threshold,
   // fade in the cards
-  if (sectionPosition < window.innerHeight/2 ) {
-    console.log("bbb");
+  if (sectionPosition < window.innerHeight/2 +100) {
+    // console.log("bbb");
     fadeInCards();
   }
 });
 
 function fadeInCards() {
-  console.log("ccc");
+  //console.log("ccc");
   // Select all cards within the cards section
   const cards = document.querySelectorAll('.card');
-  console.log(cards);
+  // console.log(cards);
   // Loop through each card and fade it in
   cards.forEach(function(card) {
     // Check if the card is already faded in
