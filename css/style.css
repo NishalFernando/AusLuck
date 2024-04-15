@@ -417,9 +417,10 @@ body{
  }
 
  .aboutus .cover-box {
-  position: relative;
   width: 1300px;
   height: 500px;
+  margin-bottom: 200px;
+  position: relative;
  }
 
  .aboutus img{
@@ -443,8 +444,8 @@ body{
  .aboutus .cover-box .card-set{
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
-  bottom: -150px;
+  position: relative;
+  bottom: 100px;
  }
 
  .aboutus .cover-box .card-set .card{
@@ -462,5 +463,35 @@ body{
   color: var(--darkBlue);
   text-decoration: none;
  }
+
+ .aboutus .chooseus-sec{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .aboutus .chooseus-sec .card{
+  border: 0px;
+ }
+  
+
+ .aboutus .chooseus-sec .card .cheader{
+  position:relative;
+  font-size: 150px;
+  border-bottom: 0px;
+  color: var(--darkBlue);
+  background: none;
+ }
+
+ .aboutus .chooseus-sec .card .cbody{
+  position: absolute;
+  top: 160px;
+  background: #FFFFFF;
+  //filter: drop-shadow(0px 0px 6px #000000);
+  //box-shadow: 0px -2px 5px -2px #888;
+  box-shadow: 0 -22px 23px -21px #00000030;
+  overflow: hidden;
+ }
+
+
 
   
