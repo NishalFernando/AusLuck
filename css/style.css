@@ -395,5 +395,72 @@ body{
 
    /* service section ends*/
 
+ /* About us secion starts*/
+ .aboutus {
+  padding-top: 180px;
+ }
+
+ .aboutus h1 {
+  font-size: 60px;
+ }
+
+ .aboutus .img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .aboutus .img-box:hover {
+  transform:scale(1.08);
+  z-index: 1;
+  transition: 0.3s;
+ }
+
+ .aboutus .cover-box {
+  position: relative;
+  width: 1300px;
+  height: 500px;
+ }
+
+ .aboutus img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+ .aboutus .cover-box .img-card .card{
+  width: 600px !important ;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 25%;
+  background: none;
+  border: none;
+
+ }
+
+ .aboutus .cover-box .card-set{
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: -150px;
+ }
+
+ .aboutus .cover-box .card-set .card{
+  width: 600px !important ;
+  border: none;
+  background: var(--darkBlue);
+  color: white;
+ }
+
+ .aboutus .cover-box .card-set .card .card-header{
+  font-size: 90px;
+ }
+
+ .aboutus .cover-box .card .link-btn{
+  color: var(--darkBlue);
+  text-decoration: none;
+ }
 
   
