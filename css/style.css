@@ -395,5 +395,118 @@ body{
 
    /* service section ends*/
 
+ /* About us secion starts*/
+ .aboutus {
+  padding-top: 180px;
+ }
+
+ .aboutus h1 {
+  font-size: 60px;
+ }
+
+ .aboutus .img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ .aboutus .img-box:hover {
+  transform:scale(1.08);
+  z-index: 1;
+  transition: 0.3s;
+ }
+
+ .aboutus .cover-box {
+  width: 1300px;
+  height: 500px;
+  margin-bottom: 200px;
+  position: relative;
+ }
+
+ .aboutus img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+ .aboutus .cover-box .img-card .card{
+  width: 600px !important ;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 25%;
+  background: none;
+  border: none;
+
+ }
+
+ .aboutus .cover-box .card-set{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 100px;
+ }
+
+ .aboutus .cover-box .card-set .card{
+  width: 600px !important ;
+  border: none;
+  background: var(--darkBlue);
+  color: white;
+ }
+
+ .aboutus .cover-box .card-set .card .card-header{
+  font-size: 90px;
+ }
+
+ .aboutus .cover-box .card .link-btn{
+  color: var(--darkBlue);
+  text-decoration: none;
+ }
+
+ .aboutus .chooseus-sec{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .aboutus .chooseus-sec .card{
+  border: 0px;
+ }
+  
+
+ .aboutus .chooseus-sec .card .cheader{
+  position:relative;
+  font-size: 150px;
+  border-bottom: 0px;
+  color: var(--darkBlue);
+  background: none;
+ }
+
+ .aboutus .chooseus-sec .card .cbody{
+  position: absolute;
+  top: 160px;
+  background: #FFFFFF;
+  //filter: drop-shadow(0px 0px 6px #000000);
+  //box-shadow: 0px -2px 5px -2px #888;
+  box-shadow: 0 -22px 23px -21px #00000030;
+  overflow: hidden;
+ }
+
+ .aboutus .info-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:50px;
+ }
+
+ .aboutus .info-grid h2{
+  font-size: 40px;
+ }
+
+ .aboutus .info-grid p{
+  font-size: 20px;
+ }
+
+
+
 
   
