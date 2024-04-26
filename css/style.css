@@ -417,7 +417,6 @@ body{
  }
 
  .aboutus .cover-box {
-  width: 1300px;
   height: 500px;
   margin-bottom: 200px;
   position: relative;
@@ -438,7 +437,6 @@ body{
   left: 25%;
   background: none;
   border: none;
-
  }
 
  .aboutus .cover-box .card-set{
@@ -506,6 +504,20 @@ body{
   font-size: 20px;
  }
 
+ .aboutus .chooseus-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .aboutus .chooseus-sec .choose-text .text-set{
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .aboutus .chooseus-sec .choose-text .text-set .text-templ{
+  display: flex;
+ }
 
 
 
